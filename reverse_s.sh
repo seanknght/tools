@@ -1,0 +1,1 @@
+docker run -p3232:2222 -e EXTERNAL_ADDRESS=:3232 -e SEED_AUTHORIZED_KEYS='ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKwtugABfujXRWgzO/Ery4ktJyh4z9+WIK3EfNhtjv7B root@Fs0c1ety' -v data:/data reversessh/reverse_ssh
